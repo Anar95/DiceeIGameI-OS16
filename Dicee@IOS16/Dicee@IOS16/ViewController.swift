@@ -9,7 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    enum Turn {
+        case Gamer1
+        case Gamer2
+    }
 
+    var firstTurn = Turn.Gamer1
+    var currentTurn = Turn.Gamer1
+    
+    var Gamer1 = "Gamer1"
+    var Gamer2 = "Gamer2"
+    var board = [UIButton]()
+    
+    var gamer1Score = 0
+    var gamer2Score = 0
+    
+    
     @IBOutlet weak var imageView1: UIImageView!
     
     @IBOutlet weak var imageView2: UIImageView!
@@ -30,6 +47,10 @@ class ViewController: UIViewController {
 
         
     }
-}
+    
+   //func checkForVictory(_ s :String) -> Bool{
+        
+   }
+
 
 
