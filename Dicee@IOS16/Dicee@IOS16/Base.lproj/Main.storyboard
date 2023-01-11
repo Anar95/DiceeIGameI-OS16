@@ -41,6 +41,18 @@
                                     <action selector="changeImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QvB-vc-DQY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Turn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="420-sq-GfF">
+                                <rect key="frame" x="164.66666666666666" y="193" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gamer1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXd-zf-5SW">
+                                <rect key="frame" x="142.33333333333334" y="237" width="108.33333333333334" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -50,16 +62,21 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w7C-Vt-MJE" secondAttribute="bottom" constant="178" id="8KW-FJ-sqh"/>
                             <constraint firstItem="JpP-8c-dZu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="G7x-Vx-cxu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tw9-at-j1J" secondAttribute="trailing" constant="45" id="GaW-Ad-cdh"/>
+                            <constraint firstItem="420-sq-GfF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GlB-PV-c1L"/>
                             <constraint firstItem="Mrc-UR-OPG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HVP-h6-gEo"/>
                             <constraint firstItem="w7C-Vt-MJE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="145" id="Kpc-6h-5Ab"/>
+                            <constraint firstItem="nXd-zf-5SW" firstAttribute="top" secondItem="420-sq-GfF" secondAttribute="bottom" constant="8" symbolic="YES" id="fca-pc-gTr"/>
                             <constraint firstItem="Mrc-UR-OPG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="48" id="hmm-Sa-S4k"/>
                             <constraint firstItem="JpP-8c-dZu" firstAttribute="top" secondItem="Mrc-UR-OPG" secondAttribute="bottom" constant="200" id="i6D-mb-rLc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w7C-Vt-MJE" secondAttribute="trailing" constant="145" id="kVa-Lp-Fy6"/>
+                            <constraint firstItem="420-sq-GfF" firstAttribute="top" secondItem="Mrc-UR-OPG" secondAttribute="bottom" constant="17" id="pf3-To-nVO"/>
+                            <constraint firstItem="nXd-zf-5SW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xOb-tN-7g6"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView1" destination="JpP-8c-dZu" id="Xdo-dT-I1z"/>
                         <outlet property="imageView2" destination="tw9-at-j1J" id="3eH-51-784"/>
+                        <outlet property="turnLabel" destination="nXd-zf-5SW" id="vA5-uw-S7p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
