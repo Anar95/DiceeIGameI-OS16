@@ -16,11 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qGf-ZT-OUQ">
+                                <rect key="frame" x="-10" y="0.0" width="425" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kcL-Ne-emz">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="634"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="833"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NNP-ru-Moh" userLabel="LogoView">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="172"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="266"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Mrc-UR-OPG">
                                                 <rect key="frame" x="95" y="0.0" width="196" height="128"/>
@@ -44,7 +48,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fjF-1O-HEf" userLabel="DiceeView">
-                                        <rect key="frame" x="0.0" y="180" width="393" height="176"/>
+                                        <rect key="frame" x="0.0" y="274" width="393" height="277"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="JpP-8c-dZu">
                                                 <rect key="frame" x="45" y="85" width="100" height="100"/>
@@ -58,7 +62,7 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6CD-Cc-PIq" userLabel="ButtomView">
-                                        <rect key="frame" x="0.0" y="364" width="393" height="270"/>
+                                        <rect key="frame" x="0.0" y="559" width="393" height="274"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7C-Vt-MJE">
                                                 <rect key="frame" x="145" y="104" width="103" height="48"/>
@@ -78,10 +82,6 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="qGf-ZT-OUQ">
-                                <rect key="frame" x="-10" y="32" width="430" height="932"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
